@@ -1,3 +1,5 @@
+import {bill} from "./assets/images/BillMahoney.png"
+
 
 export default function App() {
   return (
@@ -11,25 +13,25 @@ export default function App() {
           <p className="text-balance">Somos un equipo de personas creativamente diversas, motivadas e innovadoras que trabajan en varios lugares del mundo.</p>
         </div>
         <div className="flex flex-row p-12">
-          <span className="font-black h-72 w-44 bg-slate-700">DUEÑO DEL PRODUCTO</span>
-          <img src="./assets/BillMahoney.png" alt="" className="h-72 w-44"/>
+          <span className="font-black h-72 w-44">DUEÑO DEL PRODUCTO</span>
+          <img src={bill} alt="" className="h-72 w-44" />
           <p>Bill Mahoney</p>
-          <span className="font-black h-72 w-44 bg-red-500 ">DIRECTORA DE ARTE</span>
-          <img src="./assets/SabaCabrera.png" alt="" />
+          <span className="font-black h-72 w-44">DIRECTORA DE ARTE</span>
+          <img src="./assets/images/SabaCabrera.png" alt="" className="h-72 w-44" />
           <p>Saba Cabrera</p>
-          <span className="font-black h-72 w-44 bg-amber-400">DUEÑO DEL PRODUCTO</span>
-          <img src="./assets/ShaeLe.png" alt="" />
+          <span className="font-black h-72 w-44">DUEÑO DEL PRODUCTO</span>
+          <img src="./assets/images/ShaeLe.png" alt="" className="h-72 w-44" />
           <p>Shae Le</p>
         </div>
         <div className="flex flex-row p-12">
-          <span className="font-black h-72 w-44 bg-lime-500 ">DISEÑADORA UX</span>
-          <img src="./assets/SkylahLu.png" alt="" />
+          <span className="font-black h-72 w-44">DISEÑADORA UX</span>
+          <img src="./assets/images/SkylahLu.png" alt="" className="h-72 w-44" />
           <p>Skylah Lu</p>
-          <span className="font-black h-72 w-44 bg-teal-500">DESARROLLADOR</span>
-          <img src="./assets/GriffRichards.png" alt="" />
+          <span className="font-black h-72 w-44">DESARROLLADOR</span>
+          <img src="./assets/images/GriffRichards.png" alt="" className="h-72 w-44" />
           <p>Griff Richards</p>
-          <span className="font-black h-72 w-44 bg-blue-600">DESARROLLADOR</span>
-          <img src="./assets/StanJohn.png" alt="" />
+          <span className="font-black h-72 w-44">DESARROLLADOR</span>
+          <img src="./assets/images/StanJohn.png" alt="" className="h-72 w-44" />
           <p>Stan John</p>
 
         </div>
